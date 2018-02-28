@@ -1,6 +1,6 @@
 @media screen and (min-width: 1000px){
     body{
-        font-family: 'Lato', sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
 
     #header{
@@ -23,8 +23,8 @@
     }
 
     #section-1{
-        width:1200px;
-        height: 700px;
+        width:850px;
+        height: 600px;
         margin: 0 auto;
     }
 
@@ -33,6 +33,7 @@
         margin: 0 0;
         width:320px;
         text-align: left;
+        font-weight: bold;
     }
 
     .title-rule{
@@ -50,8 +51,8 @@
     }
 
     #text-container-1-desktop{
-        width:500px;
-        height: 600px;
+        width:400px;
+        height: 450px;
         display:block;
         float:right;
         margin:100px 0px;
@@ -64,13 +65,14 @@
 
     .paragraph-container{
         height: 120px;
-        width:400px;
+        width:450px;
         margin: 15px 0px;
         text-align: left;
         font-size:18px;
+        font-weight: bold;
     }
 
-    .paragraph{
+    .paragraph-desktop{
         color:black;
         margin: 0px 0px;
         line-height: 150%;
@@ -105,7 +107,7 @@
         height: 649px;
         text-align: center;
         float:left;
-        margin-left:200px;
+        margin-left:50px;
     }
 
     .phone-img{
@@ -115,17 +117,18 @@
     }
 
     #section-2{
-        width:1200px;
+        width:950px;
         height: 700px;
+        margin: 0 auto;
     }
 
     .text-container-2{
         width:400px;
         display:block;
         float:left;
-        margin-left:200px;
+        margin-left:50px;
         height: 400px;
-        margin-top:200px;
+        margin-top:100px;
     }
 
     .phone-img-container-2{
@@ -137,15 +140,26 @@
         margin-right:150px;
     }
 
-    #improve-ways{
-        width: 320px;
-        height: 600px;
+    #section-3{
+        width:850px;
+        height: 800px;
         margin: 0 auto;
+    }
+
+    #text-container-3{
+        width:400px;
+
+    }
+
+    #improve-ways{
+        width: 800px;
+        height: 400px;
+        margin: 0 0;
     }
 
     .ways-block{
         float: left;
-        width:150px;
+        width:200px;
         margin: 0 0;
         height: 200px;
         padding-left: 10px;
@@ -155,7 +169,7 @@
     .title-2{
         font-size: 20px;
         font-weight: bold;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     .block-title-rule{
@@ -174,18 +188,39 @@
     }
 
     #section-4{
-        width: 320px;
+        width: 850px;
         margin-top:20px;
         margin:0 auto;
+        height: 400px;
+    }
+
+    #text-container-4-mobile{
+        display:none;
+    }
+
+    #text-container-4-desktop{
+        display:block;
+        width:45%;
+        height: 300px;
+        float:left;
+    }
+
+    #title-4{
+        width:500px;
+    }
+
+    #video-container{
+        width: 50%;
+        float:right;
+        margin-right: 5%;
     }
 
     #video{
-        width:320px;
-        height: 168px;
+        width:500px;
+        height: 280px;
         background-image:url("img/section_4_pic.png");
         background-size:100% 100%;
-        margin: 40px auto;
-        margin-bottom: 0px;
+        margin: 0 0;
     }
 
 
@@ -197,9 +232,55 @@
 
     }
 
-    #title-5{
+    #title-5-mobile{
         margin:0 auto;
         padding-top:150px;
+        text-align: center;
+
+        display:none;
+    }
+
+    #title-5-desktop{
+        display:block;
+        margin:0 auto;
+        padding-top:150px;
+        text-align: center;
+        width: 400px;
+    }
+
+    .title-center{
+        font-size: 30px;
+        margin: 0 auto;
+        width:320px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .title-rule-center{
+        width:100px;
+        height: 5px;
+        background-color: blue;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    #paragraph-container-5-mobile{
+        height: 100px;
+        width:320px;
+        margin: 15px auto;
+        text-align: center;
+        font-size:18px;
+        display:none;
+    }
+
+    #paragraph-container-5-desktop{
+        height: 120px;
+        width:450px;
+        margin: 15px auto;
+        text-align: center;
+        font-size:18px;
+        font-weight: bold;
+        display:block;
     }
 
     #contact{

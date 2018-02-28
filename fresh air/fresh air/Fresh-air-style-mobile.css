@@ -1,0 +1,261 @@
+@media screen and (min-width: 320px){
+    body{
+        font-family: 'Lato', sans-serif;
+    }
+
+    #header{
+        height: 100px;
+        max-width:375px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #about-us{
+        display:none;
+    }
+
+    .title{
+        font-size: 25px;
+        margin: 0 auto;
+        width:320px;
+        text-align: center;
+    }
+
+    .title-rule{
+        width:50px;
+        height: 5px;
+        background-color: blue;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .title-1{
+        text-align: center;
+        height: 100px;
+
+    }
+
+    #text-container-1-desktop{
+        display:none;
+    }
+
+    .paragraph-container{
+        height: 100px;
+        width:320px;
+        margin: 15px auto;
+        text-align: center;
+        font-size:18px;
+    }
+
+    .paragraph-mobile{
+        color:black;
+        margin: auto 0px;
+        line-height: 150%;
+        font-size:18px;
+    }
+
+    .paragraph-desktop{
+        display:none;
+    }
+
+    .download-links-container{
+        width:280px;
+        height: 40px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .app-store-link{
+        float: left;
+    }
+
+    .google-play-link{
+        float:right;
+    }
+
+    .phone-img-container{
+        margin: 50px auto;
+        width: 280px;
+        height: 550px;
+        text-align: center;
+    }
+
+    .phone-img{
+        width: 80%;
+        height: 80%;
+        margin: 10% auto;
+    }
+
+    #improve-ways{
+        width: 320px;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    .ways-block{
+        float: left;
+        width:150px;
+        margin: 0 0;
+        height: 200px;
+        padding-left: 10px;
+    }
+
+    .phone-img-container-2{
+        margin: 50px auto;
+        width: 280px;
+        height: 550px;
+        text-align: center;
+    }
+
+
+
+    .title-2{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .block-title-rule{
+        width: 35px;
+        height: 3px;
+        margin-left: 0px;
+    }
+
+    .block-discription{
+        height: 80px;
+    }
+
+    .block-paragraph{
+        color:black;
+        margin: 20px 0px;
+    }
+
+    #section-4{
+        width: 320px;
+        margin-top:20px;
+        margin:0 auto;
+    }
+
+    #video{
+        width:320px;
+        height: 168px;
+        background-image:url("img/section_4_pic.png");
+        background-size:100% 100%;
+        margin: 40px auto;
+        margin-bottom: 0px;
+    }
+    
+    #section-5{
+        width:100%;
+        height: 600px;
+        background-image:url("img/pattern.png");
+
+    }
+
+    #title-5{
+        margin:0 auto;
+        padding-top:150px;
+    }
+
+    #contact{
+        width:320px;
+        margin: 0 auto;
+    }
+
+    .input-box{
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        background-color:transparent;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        height:50px;
+        width:90%;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .contact-paragraph{
+        color:black;
+        line-height: 150%;
+        font-size:18px;
+    }
+
+    .submit-button{
+        background-color: rgb(54, 54, 54);
+        border: none;
+        color: white;
+        padding: 25px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-top:30px;
+        margin-bottom: 50px;
+    }
+
+    #footer{
+        position:relative;
+        width:auto;
+        height:300px;
+        background-color:black;
+    }
+    
+    #footer-left{
+        position:absolute;
+        top:10px;
+        height:300px;
+        width:100%;
+        margin:0;
+    }
+    
+    #footer-left-title{
+        color:white;
+        position:absolute;
+        left:20px;
+        font-size: 18px;
+        font-weight: normal;
+        margin: 10px auto;
+    }
+    
+    #footer-left-text{
+        position:absolute;
+        left:20px;
+        top:30px;
+        color:white;
+        margin:0;
+        line-height: 5px;
+        height: 50px;
+    }
+
+    #footer-left-acorn{
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    #footer-left-slogan{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    
+    #acron-logo{
+        position:absolute;
+        bottom:20px;
+        left:0px;
+        display: none;
+    }
+    
+    #footer-right{
+        position:absolute;
+        top:auto;
+        right:auto;
+        margin: 0 0;
+        left:20px;
+        bottom:10px;
+        color: white;
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+}

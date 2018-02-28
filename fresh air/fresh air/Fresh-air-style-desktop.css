@@ -1,0 +1,305 @@
+@media screen and (min-width: 1000px){
+    body{
+        font-family: 'Lato', sans-serif;
+    }
+
+    #header{
+        height: 100px;
+        max-width:100%;
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #logo-container{
+        float: left;
+    }
+
+    #about-us{
+        display:block;
+        float: right;
+        margin-top: 20px;
+        margin-right:20px;
+    }
+
+    #section-1{
+        width:1200px;
+        height: 700px;
+        margin: 0 auto;
+    }
+
+    .title{
+        font-size: 30px;
+        margin: 0 0;
+        width:320px;
+        text-align: left;
+    }
+
+    .title-rule{
+        width:100px;
+        height: 5px;
+        background-color: blue;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .title-1{
+        text-align: left;
+        height: 150px;
+
+    }
+
+    #text-container-1-desktop{
+        width:500px;
+        height: 600px;
+        display:block;
+        float:right;
+        margin:100px 0px;
+        margin-right:50px;
+    }
+
+    #text-container-1-mobile{
+        display:none;
+    }
+
+    .paragraph-container{
+        height: 120px;
+        width:400px;
+        margin: 15px 0px;
+        text-align: left;
+        font-size:18px;
+    }
+
+    .paragraph{
+        color:black;
+        margin: 0px 0px;
+        line-height: 150%;
+        font-size:22px;
+        display: inline;
+    }
+
+    .paragraph-mobile{
+        display:none;
+    }
+
+    .download-links-container{
+        width:280px;
+        height: 40px;
+        text-align: center;
+        margin: 0 0;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .app-store-link{
+        float: left;
+    }
+
+    .google-play-link{
+        float:right;
+    }
+
+    .phone-img-container{
+        margin: 0px 0px;
+        width: 315px;
+        height: 649px;
+        text-align: center;
+        float:left;
+        margin-left:200px;
+    }
+
+    .phone-img{
+        width: 80%;
+        height: 80%;
+        margin: 10% auto;
+    }
+
+    #section-2{
+        width:1200px;
+        height: 700px;
+    }
+
+    .text-container-2{
+        width:400px;
+        display:block;
+        float:left;
+        margin-left:200px;
+        height: 400px;
+        margin-top:200px;
+    }
+
+    .phone-img-container-2{
+        margin: 0 auto;
+        width: 315px;
+        height: 649px;
+        text-align: center;
+        float:right;
+        margin-right:150px;
+    }
+
+    #improve-ways{
+        width: 320px;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    .ways-block{
+        float: left;
+        width:150px;
+        margin: 0 0;
+        height: 200px;
+        padding-left: 10px;
+    }
+    
+
+    .title-2{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .block-title-rule{
+        width: 35px;
+        height: 3px;
+        margin-left: 0px;
+    }
+
+    .block-discription{
+        height: 80px;
+    }
+
+    .block-paragraph{
+        color:black;
+        margin: 20px 0px;
+    }
+
+    #section-4{
+        width: 320px;
+        margin-top:20px;
+        margin:0 auto;
+    }
+
+    #video{
+        width:320px;
+        height: 168px;
+        background-image:url("img/section_4_pic.png");
+        background-size:100% 100%;
+        margin: 40px auto;
+        margin-bottom: 0px;
+    }
+
+
+    
+    #section-5{
+        width:100%;
+        height: 600px;
+        background-image:url("img/pattern.png");
+
+    }
+
+    #title-5{
+        margin:0 auto;
+        padding-top:150px;
+    }
+
+    #contact{
+        width:320px;
+        margin: 0 auto;
+    }
+
+    .input-box{
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        background-color:transparent;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        height:50px;
+        width:100%;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .contact-paragraph{
+        color:black;
+        line-height: 150%;
+        font-size:18px;
+    }
+
+    .submit-button{
+        background-color: rgb(54, 54, 54);
+        border: none;
+        color: white;
+        padding: 25px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-top:30px;
+        margin-bottom: 50px;
+    }
+
+    #footer{
+        position:relative;
+        width:auto;
+        height:300px;
+        background-color:black;
+    }
+    
+    #footer-left{
+        position:absolute;
+        top:10px;
+        height:300px;
+        width:100%;
+        margin:0;
+    }
+    
+    #footer-left-title{
+        color:white;
+        position:absolute;
+        left:20px;
+        font-size: 18px;
+        font-weight: normal;
+        margin: 10px auto;
+    }
+    
+    #footer-left-text{
+        position:absolute;
+        left:20px;
+        top:30px;
+        color:white;
+        margin:0;
+        line-height: 5px;
+        height: 50px;
+    }
+
+    #footer-left-acorn{
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    #footer-left-slogan{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    
+    #acron-logo{
+        position:absolute;
+        bottom:20px;
+        left:0px;
+        display: none;
+    }
+    
+    #footer-right{
+        position:absolute;
+        top:auto;
+        right:auto;
+        margin: 0 0;
+        left:20px;
+        bottom:10px;
+        color: white;
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+}

@@ -1,0 +1,126 @@
+@media screen and (min-width: 767px) {
+
+    .title-1-mobile {
+        display: none;
+    }
+
+    .title-1-tablet {
+        color:white;
+        line-height:150%;
+        font-size:30px;
+        font-weight: normal;
+        margin-left:90px;
+        margin-bottom:200px;
+        display: block;
+    }
+
+    #phone{
+        float:left;
+        height:auto;
+        margin-left: 15%;
+    }
+
+    #phone-img{
+        width:500px;
+        height: 680px;
+    }
+
+    #text-division-1{
+        margin-top:150px;
+    }
+
+    #left-img-mobile{
+        float:left;
+        width:40%;
+        height: 400px;
+        margin-left: 10%;
+    }
+
+    #right-img{
+        float:right;
+        width:30%;
+        height: 400px;
+        margin-right: 10%;
+    }
+
+    #footer-2{
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .title-1-desktop {
+        color:white;
+        line-height:150%;
+        font-size:40px;
+        display: none;
+    }
+
+    .video-1-container{
+        margin:0 auto;
+        background-image:url("img/video.jpg");
+        height:300px;
+        max-width: 600px;
+        background-size: 600px 100%;
+        background-repeat: no-repeat;
+      }
+
+    #footer{
+        position:relative;
+        width:100%;
+        height:250px;
+        background-color:black;
+    }
+    
+    #footer-left{
+        position:absolute;
+        top:100px;
+        left:20px;
+        height:150px;
+        width:80%;
+        margin:0;
+    }
+    
+    #footer-left-title{
+        color:white;
+        position:absolute;
+        left:0px;
+        font-size: 20px;
+        margin: 0 0;
+    }
+    
+    #footer-left-text{
+        position:absolute;
+        left:80px;
+        color:white;
+        margin:0;
+        line-height: 5px;
+    
+    }
+
+    #footer-left-acorn{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+
+    #footer-left-slogan{
+        font-size: 10px;
+    }
+    
+    #acron-logo{
+        position:absolute;
+        bottom:40px;
+        left:0px;
+        display: block;
+        width:70px;
+        height:80px;
+    }
+    
+    #footer-right{
+        position:absolute;
+        right:10px;
+        color: white;
+        left: auto;
+        bottom: 20px;
+        font-size:10px;
+    }
+}

@@ -185,9 +185,14 @@
         display:none;
     }
 
-    #contact{
+    #contact-mobile{
         width:320px;
         margin: 0 auto;
+        margin-top:50px;
+    }
+
+    #contact-desktop{
+        display:none;
     }
 
     .input-box{
@@ -199,6 +204,14 @@
         width:90%;
         font-size: 30px;
         margin-bottom: 20px;
+    }
+
+    #title-contact-mobile{
+        display: block;
+    }
+
+    #title-contact-desktop{
+        display: none;
     }
 
     .contact-paragraph{

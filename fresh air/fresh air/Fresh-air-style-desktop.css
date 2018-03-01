@@ -283,9 +283,26 @@
         display:block;
     }
 
-    #contact{
-        width:320px;
+    #contact-mobile{
+        width:850px;
         margin: 0 auto;
+        margin-top:50px;
+        display: none;
+    }
+
+    #contact-desktop{
+        width:850px;
+        margin: 0 auto;
+        margin-top:150px;
+        display: block;
+    }
+
+    #title-contact-mobile{
+        display: none;
+    }
+
+    #title-contact-desktop{
+        display: block;
     }
 
     .input-box{
@@ -294,9 +311,10 @@
         background-color:transparent;
         transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
         height:50px;
-        width:100%;
+        width:50%;
         font-size: 30px;
         margin-bottom: 20px;
+        margin-right: 50%;
     }
 
     .contact-paragraph{
@@ -322,65 +340,63 @@
 
     #footer{
         position:relative;
-        width:auto;
-        height:300px;
+        width:100%;
+        height:250px;
         background-color:black;
     }
     
     #footer-left{
         position:absolute;
-        top:10px;
-        height:300px;
-        width:100%;
+        top:60px;
+        left:50px;
+        height:200px;
+        width:80%;
         margin:0;
     }
     
     #footer-left-title{
         color:white;
         position:absolute;
-        left:20px;
-        font-size: 18px;
-        font-weight: normal;
-        margin: 10px auto;
+        left:10px;
+        font-size: 25px;
+        margin: 0 0;
     }
     
     #footer-left-text{
         position:absolute;
-        left:20px;
-        top:30px;
+        left:101px;
+        bottom:60px;
         color:white;
         margin:0;
         line-height: 5px;
-        height: 50px;
+    
     }
 
     #footer-left-acorn{
+        margin-top:90px;
         font-size: 30px;
-        font-weight: normal;
     }
 
     #footer-left-slogan{
-        font-size: 13px;
-        letter-spacing: 1px;
+        font-size: 15px;
     }
     
     #acron-logo{
         position:absolute;
         bottom:20px;
         left:0px;
-        display: none;
+        display: block;
+        width: auto;
+        height: auto;
     }
     
     #footer-right{
         position:absolute;
-        top:auto;
-        right:auto;
-        margin: 0 0;
-        left:20px;
-        bottom:10px;
+ 
+        right:10px;
         color: white;
-        font-size: 10px;
-        letter-spacing: 2px;
-    }
+        left: auto;
 
+        font-size:15;
+    }
 }
